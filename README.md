@@ -1,2 +1,2 @@
 # JavaLabsCit
-Java excercises at CiT HighCert on Computing
+Java excercises at Cork Institute of Technology Higher Certificate on Computing
