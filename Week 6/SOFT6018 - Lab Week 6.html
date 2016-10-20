@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://mcom.cit.ie/staff/Computing/SimonLong/psp1labs/lab6.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://mcom.cit.ie/staff/Computing/favicon.ico">
+
+    <title>SOFT6018 - Lab Week 6</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./SOFT6018 - Lab Week 6_files/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Problem Solving &amp; Programming 1 (SOFT6018) - Lab Week 6</h1>
+				<h3>Number Guessing Game</h3>
+				<p>This lab should be done using <b><ins>Eclipse</ins></b>. It is installed on all the machines in the labs.</p>				
+				<hr>
+				<p>Your program should have two classes <code>MainProgram</code> and <code>TheGame</code></p>
+				<p><code>TheGame</code>should declare and instantiate the following variables at <b>class level</b></p>	
+				<ul>
+					<li>An <code>int</code> variable to store the randomly generated number</li>
+					<li>An <code>int</code> variable to store the number of correct guesses in a row</li>
+					<li>A <code>Random</code> variable to store the instance of the <code>Random</code> class.</li>
+					<li>A <code>public static final int </code> constant to store the MAX_NUMBER random number which is possible in the game</li>
+				</ul>
+				<p><code>TheGame</code>should also have <ins>three</ins> methods which do the following</p>
+				<ul>					
+					<li>A <code>public</code> method called <code>playTheGame</code> which starts the game for the user. It should prompt them for their guess, generate a random number and print out a result.</li>
+					<li>A <code>public</code> method called <code>printNoOfGuessesInARow</code>which prints the number of guesses which they have guessed correctly in a row <ins><b>AND</b></ins>also prints the last number which they guessed correctly</li> 
+					<li>A <code>public</code> method called <code>printMenu</code> which prints the menu to user and takes no parameter and returns nothing.</li>
+				</ul>
+				
+			
+				<hr>
+				<p><code>MainProgram</code>should contain the have three <code>private</code> constants for the three menu options</p>
+				<p>It should do the following : </p>
+				<ul>
+					<li>Display a menu to the user asking if they want to :</li>
+					<li>
+						<ol>
+							<li><code>Play The Game</code></li>
+							<li><code>Print Highscore</code></li>
+							<li><code>Exit.</code></li>
+						</ol>
+					</li>
+					<li>A <code>Scanner</code> should be used to capture the users input when choosing an option</li>
+					<li>A while loop should keep running allowing them to keep choosing 1 or 2 as they wish. Once they enter 3 the program should exit.</li>
+					<li>A switch statement should be provided within the <code>while</code> loop to process the users choice</li>
+					<li>It should create an instance of <code>TheGame</code> in <code>main</code> and call its methods as appropriate.</li>
+					<li>If the user enters an invalid option (i.e. Not 1,2 or 3) they should get this message "You have entered an invalid option."</li>
+				</ul>
+				
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			
+			<div class="col-md-6">
+				<h6>Step By Step Instructional Video</h6>
+				<iframe width="560" height="315" src="./SOFT6018 - Lab Week 6_files/h5JJw1g6zWo.html" frameborder="0" allowfullscreen=""></iframe>
+			</div>
+			
+		</div>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./SOFT6018 - Lab Week 6_files/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./SOFT6018 - Lab Week 6_files/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+ 
+  
+
+</body></html>
