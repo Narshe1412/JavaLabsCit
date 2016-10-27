@@ -5,7 +5,7 @@ import java.util.Random;
 public class LotteryGame {
 	
 	private final int MAX_NUMBER = 10;
-	private final int NUMBER_OF_PICKS = 10;
+	private final int NUMBER_OF_PICKS = 3;
 	private final int TICKET_PRICE = 1;
 	
 	//PRIZES
@@ -93,7 +93,7 @@ public class LotteryGame {
 		System.out.println(printTicket(winningTicket, false));
 		if (matches > 0) {
 			System.out.println("Congratulations!! You've guessed " + matches + " number(s)!");
-			System.out.println("You've won a total of " + givePrizes(matches) + "€.");
+			System.out.println("You've won a total of " + givePrizes(matches) + "â‚¬.");
 		} else {
 			System.out.println("I'm deeply sorry, you didn't got any match. Better luck next time.");
 		}
@@ -101,6 +101,6 @@ public class LotteryGame {
 	}
 	
 	public void printMoney(int totalMoney) {
-		System.out.println(totalMoney >0? "Your current balance is " + totalMoney + "€." : "You ran out of money and can't keep playing." );
+		System.out.println(totalMoney >0? "Your current balance is " + totalMoney + "â‚¬." : "You ran out of money and can't keep playing." );
 	}
 }
